@@ -1,139 +1,75 @@
-# Crime Analysis Dashboard using Power BI
+#  Crime Analysis Dashboard (Power BI)
 
 ##  Project Overview
 
-This project is a **Crime Analysis Dashboard** developed using **Microsoft Power BI**.
-The dashboard analyzes crime investigation data from the **National Crime Records Bureau (NCRB)** and provides meaningful insights into crime trends, investigation status, chargesheet rates, and police case disposal.
-
-The dataset was first cleaned and transformed using **Microsoft Excel**, then imported into Power BI for data modeling and visualization.
+This project presents an interactive **Crime Analysis Dashboard** built using Power BI. It analyzes crime data from India (2019) to understand crime distribution, investigation status, and police performance.
 
 ---
 
-#  Objectives
+##  Objectives
 
-* Analyze overall crime statistics
-* Identify top crime categories
-* Monitor investigation and pending cases
-* Evaluate police disposal efficiency
-* Measure chargesheet submission rate
-* Create an interactive dashboard for crime analysis
-
----
-
-#  Tools & Technologies Used
-
-| Tool            | Purpose                                 |
-| --------------- | --------------------------------------- |
-| Microsoft Excel | Data Cleaning & Preprocessing           |
-| Power BI        | Dashboard Creation & Data Visualization |
-| Power Query     | Data Transformation                     |
+* Identify major crime categories
+* Analyze investigation progress and pending cases
+* Evaluate police performance using charge-sheet rate
+* Understand distribution of crimes across categories
 
 ---
 
 ##  Dataset Information
 
+* **Dataset Name:** NCRB Crime in India Report 2019
+* **Format:** CSV
+* Source: https://www.data.gov.in/catalog/crime-india-2019
 
-### Dataset file is included in this repository.
+*  ### You can access the dataset here:https://drive.google.com/file/d/1G09UntcN62EP9bUPMe3psykn-fJobRW2/view?usp=sharing
+---
 
-Source: https://www.data.gov.in/catalog/crime-india-2019
+##  Dashboard Features
 
-You can access the dataset here:https://drive.google.com/file/d/1G09UntcN62EP9bUPMe3psykn-fJobRW2/view?usp=sharing
+###  Page 1: Overview
 
-
-#  Data Cleaning Process (Excel)
-
-Before importing the dataset into Power BI, the following preprocessing steps were performed in Microsoft Excel:
-
-* Removed empty rows and columns
-* Corrected inconsistent formatting
-* Checked and handled missing values
-* Removed duplicate records
-* Standardized crime category names
-* Cleaned unwanted symbols and spaces
-
-After cleaning, the dataset was saved as a CSV file and imported into Power BI.
+* KPI Cards (Total Cases, Reported, Pending, Disposed)
+* Crime-wise comparison (Bar Chart)
+* Case status analysis (Column Chart)
+* Top 5 crimes distribution (Pie Chart)
+* Pending vs Disposed cases (Donut Chart)
+* Key insights summary
 
 ---
 
-#  Dashboard Features
+###  Page 2: Detailed Analysis
 
-##  Page 1 – Crime Overview Dashboard
-
-This page provides a summary of overall crime investigation statistics.
-
-### Visuals Included
-
-* KPI Cards
-
-  * Total Cases for Investigation
-  * Cases Reported During the Year
-  * Cases Pending Investigation
-  * Cases Disposed by Police
-
-* Bar Chart
-
-  * Total Cases by Crime Head
-
-* Line Chart
-
-  * Cases Reported vs Pending Investigation
-
-* Donut Chart
-
-  * Pending Investigation Analysis
-
-* Pie Chart
-
-  * Top 5 Crime Categories
-
-* Clustered Column Chart
-
-  * Chargesheets Submitted vs Cases Disposed
+* Charge-sheet rate (Gauge Chart)
+* Final report analysis by crime head
+* Detailed data table view
+* Special cases (Not Investigated, Transferred, Withdrawn)
+* Key insights panel
 
 ---
 
-##  Page 2 – Investigation & Chargesheet Analysis
+##  Key Insights
 
-This page focuses on detailed investigation and chargesheet metrics.
-
-### Visuals Included
-
-* Gauge Chart
-
-  * Chargesheet Rate
-
-* Bar Chart
-
-  * Final Report by Crime Head
-
-* Detailed Data Table
-
-  * Crime-wise Investigation Statistics
-
-* Investigation Status Analysis
-
-  * Cases Not Investigated
-  * Cases Transferred
-  * Cases Withdrawn
+* Theft and hurt-related crimes are the most common categories
+* Cases reported are significantly higher than previous pending cases
+* A large number of cases remain pending at the end of the year
+* Charge-sheet rate is around **66.57%**, indicating moderate efficiency
+* Final report cases are concentrated in high-volume crimes
+* Some cases are transferred or not investigated, showing procedural challenges
 
 ---
 
-#  Key Insights
+##  Tools & Technologies
 
-* Theft is the most reported crime category.
-* Chargesheet rate is approximately **66.57%**.
-* A significant number of cases remain under investigation.
-* Crime distribution varies across different crime heads.
-* Police disposal performance differs by crime category.
-
----
-
-#  Author
-
-Jasla
+* Power BI (Data Visualization)
+* Excel(Data Cleaning & Transformation)
+* Power Query (Data Cleaning & Transformation)
+* DAX (Measures & Calculations)
 
 ---
 
-#  Conclusion
 
-This project demonstrates how Power BI can be used to transform raw crime data into meaningful business insights through interactive dashboards and visual analytics. The dashboard helps users understand crime investigation patterns and evaluate investigation performance effectively.
+##  Conclusion
+
+The dashboard provides meaningful insights into crime patterns and investigation efficiency. It highlights the need to reduce pending cases and improve the effectiveness of the investigation process.
+
+---
